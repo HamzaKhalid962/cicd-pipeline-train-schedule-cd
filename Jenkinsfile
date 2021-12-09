@@ -26,15 +26,17 @@ pipeline {
                                         sourceFiles: 'dist/trainSchedule.zip',
                                         removePrefix: 'dist/',
                                         remoteDirectory: '/tmp',
-                                        echo 'Build SEXY'
+                            
                                       
                                     )
+                                    
                                 ]
                             )
                         ]
                     )
                 
             }
+            echo 'Full SEX BUILD'
         }
      }   
 }
