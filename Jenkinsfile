@@ -34,9 +34,9 @@ pipeline {
                             )
                         ]
                     )
-                
+                echo 'Build Success'
             }
-            echo 'Buld Success'
+            
         }
      }   
 }
