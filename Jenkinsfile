@@ -36,7 +36,7 @@ pipeline {
                     )
                 
             }
-            echo 'Full SEX BUILD'
+            echo 'Buld Success'
         }
      }   
 }
