@@ -26,7 +26,7 @@ pipeline {
                                         sourceFiles: 'dist/trainSchedule.zip',
                                         removePrefix: 'dist/',
                                         remoteDirectory: '/tmp',
-                                        execCommand: 'sudo echo Build Success > /etc/temp.txt' 
+                                        execCommand: 'sudo echo Build Success > /tmp/build.txt' 
                                     )
                                 ]
                             )
